@@ -9,4 +9,6 @@ int main()
     printf("Isosceles triangle");
     else
     printf("Scalene triangle");
+    
 }
+
