@@ -1,5 +1,5 @@
 #include<stdio.h>
-int hr(int n)
+int man(int n)
 {
     int r,s=0;
     while(n>0)
@@ -12,16 +12,16 @@ int hr(int n)
 }
 int main()
 {
-    int n,m;
+    int n,ram;
     scanf("%d",&n);
-    m=n;
-    while(m!=1&&m!=4)
+    ram=n;
+    while(ram!=1&&ram!=4)
     {
-        m=hr(m);
+        ram=man(ram);
     }
-        if(m==1)
-        printf("True");
-        else
-        printf("False");
-    }
-
+    if(ram==1)
+    printf("True");
+    else
+    printf("False");
+    
+}
